@@ -15,5 +15,5 @@ const people = [{
 const under30 = people.filter((person) => person.age <30);
 console.log(under30) 
 
-const na = people.find( (person, select) => person.name.toLowerCase() === select.toLowerCase());
-console.log(na(people, 'jen'));
+const na = people.find( (select) => people.name.toLowerCase() === select.toLowerCase());
+console.log(na( 'jen'));
