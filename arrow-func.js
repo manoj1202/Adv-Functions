@@ -15,5 +15,5 @@ const people = [{
 const under30 = people.filter((person) => person.age <30);
 console.log(under30) 
 
-const na = people.find( (select) => people.name === select );
+const na = people.find( (person) => person.name === 'jen' );
 console.log(na);
