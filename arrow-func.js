@@ -17,3 +17,6 @@ console.log(under30)
 
 const na = people.find((person) => person.name.toLowerCase() === 'jen' );
 console.log(na);
+
+const age22 = people.find((person) => person.age === 22);
+console.log(age22);
