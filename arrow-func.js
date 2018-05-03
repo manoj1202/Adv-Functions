@@ -1,2 +1,2 @@
 const square = (num) => num * num;
-console.log(square); 
+console.log(square(5)); 
