@@ -3,7 +3,7 @@ console.log(square(5));
 
 const people = [{
     name : 'Nick',
-    age : 24
+    age : 22
 },{
     name : 'vikram',
     age : 31
